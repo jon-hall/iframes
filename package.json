@@ -1,0 +1,38 @@
+{
+  "name": "iframes",
+  "version": "0.0.1",
+  "description": "Needs more iframes!",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: needs more iframes\" && exit 1",
+    "doTest": "gulp test",
+    "doDev": "gulp dev",
+    "doCliTest": "node ./cli.js \"cli-test/iframes\" -s \"cli-test/example.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "jon-hall/iframes"
+  },
+  "keywords": [
+    "iframes",
+    "iframe",
+    "i wish i had more iframes",
+    "where can i get more iframes"
+  ],
+  "author": "Jon Hall <jon_hall@outlook.com>",
+  "license": "WTFPL",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.0.1"
+  },
+  "dependencies": {
+    "fs-extra": "^0.20.1",
+    "get-me": "^0.0.7",
+    "harmonize": "^1.4.2",
+    "jquery": "^2.1.4",
+    "jsdom": "^3.1.2",
+    "suspend": "^0.6.1",
+    "yargs": "^3.13.0"
+  }
+}
